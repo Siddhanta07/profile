@@ -1,0 +1,159 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #460861;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Add this CSS for the image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+/* Header */
+#header {
+    background-color: #3c0362;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#header h1 {
+    margin-bottom: 10px;
+}
+
+#header p {
+    margin-bottom: 20px;
+}
+
+#header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#header nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section.bg-light {
+    background-color: #f4f4f4;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    flex: 1;
+    margin: 15px;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    margin: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+}
+
+.project a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #f4a261;
+}
+
+/* Contact Section */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+#contactForm button {
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #f4a261;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#footer p {
+    margin-bottom: 10px;
+}
+
+#footer .social a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer .social a:hover {
+    color: #f4a261;
+}
